@@ -1,4 +1,5 @@
 # DESCRIPTION :
+# First use of package
 # Write a script that formats the dates this way, 
 # Expected output:
 # $>python format_ft_time.py | cat -e

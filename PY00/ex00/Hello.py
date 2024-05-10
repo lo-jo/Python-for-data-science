@@ -1,4 +1,5 @@
 # DESCRIPTION :
+# First python script
 # You need to modify the string of each data object to display the following greetings:
 # "Hello World", "Hello «country of your campus»", "Hello «city of your campus»", "Hello
 # «name of your campus»"
