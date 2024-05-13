@@ -9,8 +9,6 @@
 import sys
 print(sys.argv[0], len(sys.argv))
 
-
-
 try:
     if len(sys.argv) != 2:
         raise AssertionError("AssertionError: more than one argument is provided")
