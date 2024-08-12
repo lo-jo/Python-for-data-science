@@ -7,7 +7,7 @@
 # AssertionError.
 
 import sys
-print(sys.argv[0], len(sys.argv))
+# print(sys.argv[0], len(sys.argv))
 
 try:
     if len(sys.argv) != 2:
@@ -20,7 +20,7 @@ except AssertionError as e:
 
 if (len(sys.argv) == 2):
     arg = int(sys.argv[1])
-    # CHECK IF IT IS AN INT?????
+    # No need to check for int overflow because python integers have arbitrary precision 
     if arg%2 == 0:
         print("I am even")
     else:
